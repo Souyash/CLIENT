@@ -98,30 +98,106 @@
                 <i class="fas fa-language text-orange-400 group-hover:text-white text-sm sm:text-base"></i>
                 <span id="currentLangLabel">हिंदी (Hindi)</span>
             </button>
-            <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="p-1.5 sm:p-2 rounded-xl lg:hidden bg-white/10 text-white hover:bg-white/20 transition-colors cursor-pointer" aria-label="Toggle Navigation">
-                <i class="fas fa-bars text-base sm:text-lg" id="menuIcon"></i>
+            <button id="mobileMenuBtn" onclick="toggleMobileMenu()" aria-expanded="false" aria-controls="mobileMenu" class="p-2 rounded-xl lg:hidden bg-white/10 text-white hover:bg-orange-600 border border-white/10 hover:border-orange-500 transition-all cursor-pointer shadow-md" aria-label="Toggle Navigation">
+                <i class="fas fa-bars text-lg transition-transform duration-300" id="menuIcon"></i>
             </button>
         </div>
     </header>
 
-    <!-- Mobile Drawer -->
-    <div id="mobileMenu" class="fixed inset-x-0 top-[54px] sm:top-[66px] md:top-[74px] z-[999] bg-[#0d1527] border-b border-slate-800 p-6 flex flex-col gap-4 text-white lg:hidden hidden shadow-2xl transition-all">
-        <!-- Language Switcher in Mobile Drawer -->
-        <div class="py-2.5 px-2 border-b border-slate-800 flex items-center justify-between">
-            <span class="text-xs text-slate-400 font-mono uppercase">Language / भाषा</span>
-            <button onclick="toggleLanguage()" class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-white text-xs font-bold hover:bg-orange-600 border border-white/20">
-                <i class="fas fa-language text-orange-400"></i>
-                <span class="mobileLangLabel">हिंदी (Hindi)</span>
-            </button>
-        </div>
+    <!-- Mobile Backdrop Overlay -->
+    <div id="mobileMenuBackdrop" onclick="closeMobileMenu()" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-[998] hidden opacity-0 transition-opacity duration-300 lg:hidden"></div>
 
-        <a href="index.html" class="font-serif text-lg py-2 border-b border-slate-800 hover:text-orange-400">Home</a>
-        <a href="about.html" class="font-serif text-lg py-2 border-b border-slate-800 hover:text-orange-400">About MLA</a>
-        <a href="development.html" class="font-serif text-lg py-2 border-b border-slate-800 hover:text-orange-400">Development</a>
-        <a href="reports.html" class="font-serif text-lg py-2 border-b border-slate-800 hover:text-orange-400">Reports &amp; Dossiers</a>
-        <a href="noida-international-airport.html" class="font-serif text-lg py-2 border-b border-slate-800 hover:text-orange-400">Noida Airport</a>
-        <a href="media.html" class="font-serif text-lg py-2 border-b border-slate-800 hover:text-orange-400">Media Desk</a>
-        <a href="connect.html" class="font-serif text-lg py-2 text-orange-400">Public Secretariat</a>
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="fixed inset-x-0 top-[54px] sm:top-[66px] md:top-[74px] z-[999] bg-[#0d1527]/98 backdrop-blur-2xl border-b border-slate-800 shadow-2xl transition-all duration-300 ease-in-out -translate-y-full opacity-0 pointer-events-none lg:hidden max-h-[calc(100vh-60px)] overflow-y-auto">
+        <div class="p-5 sm:p-6 flex flex-col gap-3">
+            <!-- Language Switcher in Mobile Drawer -->
+            <div class="py-2.5 px-3.5 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between">
+                <span class="text-xs text-slate-300 font-mono uppercase tracking-wider flex items-center gap-2">
+                    <i class="fas fa-globe text-orange-400"></i> Language / भाषा
+                </span>
+                <button onclick="toggleLanguage()" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-white text-xs font-bold hover:bg-orange-600 border border-white/20 transition-colors">
+                    <i class="fas fa-language text-orange-400"></i>
+                    <span class="mobileLangLabel">हिंदी (Hindi)</span>
+                </button>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="flex flex-col gap-1 pt-1">
+                <a href="index.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl font-serif text-base text-white hover:bg-white/5 hover:text-orange-400 transition-colors group" onclick="closeMobileMenu()">
+                    <span class="flex items-center gap-3">
+                        <i class="fas fa-home text-sm text-slate-400 group-hover:text-orange-400 w-5 text-center"></i>
+                        <span>Home</span>
+                    </span>
+                    <i class="fas fa-chevron-right text-xs text-slate-600 group-hover:text-orange-400 transition-transform group-hover:translate-x-1"></i>
+                </a>
+                <a href="about.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl font-serif text-base text-white hover:bg-white/5 hover:text-orange-400 transition-colors group" onclick="closeMobileMenu()">
+                    <span class="flex items-center gap-3">
+                        <i class="fas fa-user-tie text-sm text-slate-400 group-hover:text-orange-400 w-5 text-center"></i>
+                        <span>About MLA</span>
+                    </span>
+                    <i class="fas fa-chevron-right text-xs text-slate-600 group-hover:text-orange-400 transition-transform group-hover:translate-x-1"></i>
+                </a>
+                <a href="development.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl font-serif text-base text-white hover:bg-white/5 hover:text-orange-400 transition-colors group" onclick="closeMobileMenu()">
+                    <span class="flex items-center gap-3">
+                        <i class="fas fa-city text-sm text-slate-400 group-hover:text-orange-400 w-5 text-center"></i>
+                        <span>Development Works</span>
+                    </span>
+                    <i class="fas fa-chevron-right text-xs text-slate-600 group-hover:text-orange-400 transition-transform group-hover:translate-x-1"></i>
+                </a>
+                <a href="reports.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl font-serif text-base text-white hover:bg-white/5 hover:text-orange-400 transition-colors group" onclick="closeMobileMenu()">
+                    <span class="flex items-center gap-3">
+                        <i class="fas fa-folder-open text-sm text-slate-400 group-hover:text-orange-400 w-5 text-center"></i>
+                        <span>192 Village Dossiers</span>
+                    </span>
+                    <i class="fas fa-chevron-right text-xs text-slate-600 group-hover:text-orange-400 transition-transform group-hover:translate-x-1"></i>
+                </a>
+                <a href="noida-international-airport.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl font-serif text-base text-white hover:bg-white/5 hover:text-orange-400 transition-colors group" onclick="closeMobileMenu()">
+                    <span class="flex items-center gap-3">
+                        <i class="fas fa-plane-departure text-sm text-slate-400 group-hover:text-orange-400 w-5 text-center"></i>
+                        <span>Noida Airport Hub</span>
+                    </span>
+                    <i class="fas fa-chevron-right text-xs text-slate-600 group-hover:text-orange-400 transition-transform group-hover:translate-x-1"></i>
+                </a>
+                <a href="media.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl font-serif text-base text-white hover:bg-white/5 hover:text-orange-400 transition-colors group" onclick="closeMobileMenu()">
+                    <span class="flex items-center gap-3">
+                        <i class="fas fa-newspaper text-sm text-slate-400 group-hover:text-orange-400 w-5 text-center"></i>
+                        <span>Media &amp; Press Desk</span>
+                    </span>
+                    <i class="fas fa-chevron-right text-xs text-slate-600 group-hover:text-orange-400 transition-transform group-hover:translate-x-1"></i>
+                </a>
+                <a href="connect.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl font-serif text-base text-orange-400 bg-white/5 font-semibold transition-colors group" onclick="closeMobileMenu()">
+                    <span class="flex items-center gap-3">
+                        <i class="fas fa-envelope-open-text text-sm text-orange-400 w-5 text-center"></i>
+                        <span>Public Secretariat</span>
+                    </span>
+                    <i class="fas fa-check text-xs text-orange-400"></i>
+                </a>
+            </div>
+
+            <!-- Mobile Public Cell CTA -->
+            <div class="pt-3 border-t border-slate-800 flex flex-col gap-3">
+                <a href="connect.html" onclick="closeMobileMenu()" class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white text-xs font-bold uppercase tracking-wider py-3 px-4 rounded-xl shadow-lg active:scale-[0.99] transition-all">
+                    <i class="fas fa-paper-plane text-xs"></i>
+                    <span>Citizen Helpdesk / Public Cell</span>
+                </a>
+
+                <!-- Social Links in Drawer -->
+                <div class="flex items-center justify-around py-2 px-4 rounded-xl bg-white/[0.03] border border-white/5 text-slate-300">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="p-2 hover:text-orange-400 transition-colors" aria-label="Facebook">
+                        <i class="fab fa-facebook-f text-sm"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="p-2 hover:text-orange-400 transition-colors" aria-label="X Twitter">
+                        <i class="fab fa-x-twitter text-sm"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="p-2 hover:text-orange-400 transition-colors" aria-label="Instagram">
+                        <i class="fab fa-instagram text-sm"></i>
+                    </a>
+                    <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="p-2 hover:text-orange-400 transition-colors" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <main class="flex-grow pt-24">
@@ -384,29 +460,72 @@
 
         function toggleMobileMenu() {
             const mobileMenu = document.getElementById('mobileMenu');
-            const menuIcon = document.getElementById('menuIcon');
             if (!mobileMenu) return;
-            mobileMenu.classList.toggle('hidden');
-            if (menuIcon) {
-                if (mobileMenu.classList.contains('hidden')) {
-                    menuIcon.classList.remove('fa-times');
-                    menuIcon.classList.add('fa-bars');
-                } else {
-                    menuIcon.classList.remove('fa-bars');
-                    menuIcon.classList.add('fa-times');
-                }
+            const isOpen = mobileMenu.classList.contains('translate-y-0');
+            if (isOpen) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
             }
+        }
+
+        function openMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const backdrop = document.getElementById('mobileMenuBackdrop');
+            const menuIcon = document.getElementById('menuIcon');
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            if (!mobileMenu) return;
+
+            mobileMenu.classList.remove('-translate-y-full', 'opacity-0', 'pointer-events-none');
+            mobileMenu.classList.add('translate-y-0', 'opacity-100', 'pointer-events-auto');
+
+            if (backdrop) {
+                backdrop.classList.remove('hidden');
+                requestAnimationFrame(() => {
+                    backdrop.classList.remove('opacity-0');
+                    backdrop.classList.add('opacity-100');
+                });
+            }
+            if (menuIcon) {
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-times');
+            }
+            if (mobileMenuBtn) {
+                mobileMenuBtn.setAttribute('aria-expanded', 'true');
+            }
+            document.body.style.overflow = 'hidden';
         }
 
         function closeMobileMenu() {
             const mobileMenu = document.getElementById('mobileMenu');
+            const backdrop = document.getElementById('mobileMenuBackdrop');
             const menuIcon = document.getElementById('menuIcon');
-            if (mobileMenu) mobileMenu.classList.add('hidden');
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            if (!mobileMenu) return;
+
+            mobileMenu.classList.remove('translate-y-0', 'opacity-100', 'pointer-events-auto');
+            mobileMenu.classList.add('-translate-y-full', 'opacity-0', 'pointer-events-none');
+
+            if (backdrop) {
+                backdrop.classList.remove('opacity-100');
+                backdrop.classList.add('opacity-0');
+                setTimeout(() => {
+                    backdrop.classList.add('hidden');
+                }, 300);
+            }
             if (menuIcon) {
                 menuIcon.classList.remove('fa-times');
                 menuIcon.classList.add('fa-bars');
             }
+            if (mobileMenuBtn) {
+                mobileMenuBtn.setAttribute('aria-expanded', 'false');
+            }
+            document.body.style.overflow = '';
         }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeMobileMenu();
+        });
 
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         if (mobileMenuBtn) {
