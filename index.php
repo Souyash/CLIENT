@@ -82,18 +82,18 @@
     <!-- ========================================================================= -->
     <!-- HEADER / NAVIGATION (STICKY WITH FROSTED GLASS)                           -->
     <!-- ========================================================================= -->
-    <header id="mainHeader" class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-12 transition-all duration-300 glass-nav">
+    <header id="mainHeader" class="fixed top-0 left-0 right-0 z-[1000] flex items-center justify-between px-4 py-2.5 sm:px-6 sm:py-3.5 md:px-12 md:py-4 transition-all duration-300 glass-nav">
         <!-- Logo & Persona -->
-        <a class="flex items-center gap-3.5 group select-none outline-none" href="#home">
-            <div class="relative flex h-11 w-11 items-center justify-center rounded-full bg-white overflow-hidden shadow-md border-2 border-orange-600 transition-transform duration-300 group-hover:scale-105">
+        <a class="flex items-center gap-2.5 sm:gap-3.5 group select-none outline-none" href="#home">
+            <div class="relative flex h-9 w-9 sm:h-11 sm:w-11 items-center justify-center rounded-full bg-white overflow-hidden shadow-md border-2 border-orange-600 transition-transform duration-300 group-hover:scale-105">
                 <!-- Emblem Icon -->
-                <i class="fas fa-landmark text-orange-600 text-lg"></i>
+                <i class="fas fa-landmark text-orange-600 text-sm sm:text-lg"></i>
             </div>
             <div class="flex flex-col">
-                <span class="font-serif text-lg md:text-xl font-bold tracking-tight text-white transition-colors duration-300 group-hover:text-orange-400">
+                <span class="font-serif text-base sm:text-lg md:text-xl font-bold tracking-tight text-white transition-colors duration-300 group-hover:text-orange-400">
                     Subhakumar Singh
                 </span>
-                <span class="text-[10px] font-black tracking-[0.2em] uppercase text-orange-400">
+                <span class="text-[8px] sm:text-[10px] font-black tracking-[0.15em] sm:tracking-[0.2em] uppercase text-orange-400">
                     MLA • Central Constituency
                 </span>
             </div>
@@ -131,7 +131,7 @@
         </nav>
 
         <!-- Social Icons & Connect CTA -->
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2.5 sm:gap-4">
             <div class="hidden md:flex items-center gap-3 border-l pl-5 border-slate-700">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="text-white/70 hover:text-orange-400 transition-colors p-1.5" aria-label="Facebook">
                     <i class="fab fa-facebook-f text-sm"></i>
@@ -148,19 +148,19 @@
             </div>
 
             <!-- Mobile Hamburger Toggle -->
-                    <!-- Language Translator Toggle Button (English <-> Hindi) -->
-        <button id="langToggleBtn" onclick="toggleLanguage()" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 hover:bg-orange-600 border border-white/20 text-white text-xs font-bold transition-all shadow-md active:scale-95 group" title="Change Language / भाषा बदलें">
-            <i class="fas fa-language text-orange-400 group-hover:text-white text-base"></i>
-            <span id="currentLangLabel">हिंदी (Hindi)</span>
-        </button>
-        <button id="mobileMenuBtn" class="p-2 rounded-xl lg:hidden bg-white/10 text-white hover:bg-white/20 transition-colors" aria-label="Toggle Navigation">
-                <i class="fas fa-bars text-lg" id="menuIcon"></i>
+            <!-- Language Translator Toggle Button (English <-> Hindi) -->
+            <button id="langToggleBtn" onclick="toggleLanguage()" class="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/10 hover:bg-orange-600 border border-white/20 text-white text-[11px] sm:text-xs font-bold transition-all shadow-md active:scale-95 group" title="Change Language / भाषा बदलें">
+                <i class="fas fa-language text-orange-400 group-hover:text-white text-sm sm:text-base"></i>
+                <span id="currentLangLabel">हिंदी (Hindi)</span>
+            </button>
+            <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="p-1.5 sm:p-2 rounded-xl lg:hidden bg-white/10 text-white hover:bg-white/20 transition-colors cursor-pointer" aria-label="Toggle Navigation">
+                <i class="fas fa-bars text-base sm:text-lg" id="menuIcon"></i>
             </button>
         </div>
     </header>
 
     <!-- Mobile Navigation Drawer -->
-    <div id="mobileMenu" class="fixed inset-x-0 top-[72px] z-40 bg-[#0d1527] border-b border-slate-800 p-6 flex flex-col gap-4 text-white lg:hidden hidden shadow-2xl transition-all">
+    <div id="mobileMenu" class="fixed inset-x-0 top-[54px] sm:top-[66px] md:top-[74px] z-[999] bg-[#0d1527] border-b border-slate-800 p-6 flex flex-col gap-4 text-white lg:hidden hidden shadow-2xl transition-all">
         <!-- Language Switcher in Mobile Drawer -->
         <div class="py-2.5 px-2 border-b border-slate-800 flex items-center justify-between">
             <span class="text-xs text-slate-400 font-mono uppercase">Language / भाषा</span>
@@ -179,7 +179,7 @@
         <a href="connect.html" class="font-serif text-lg py-2 hover:text-orange-400" onclick="closeMobileMenu()">Public Secretariat</a>
     </div>
 
-        <!-- ========================================================================= -->
+    <!-- ========================================================================= -->
     <!-- SECTION 1: HERO SLIDESHOW & REAL-TIME PROGRESS CAPSULE                    -->
     <!-- (Exact structure from https://www.dhirendrasingh.in)                      -->
     <!-- ========================================================================= -->
@@ -202,7 +202,7 @@
         </div>
 
         <!-- Hero Content Foreground with Split Media & Editorial Layout -->
-        <div class="relative z-10 flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between pt-24 sm:pt-28 pb-28 sm:pb-32 w-full">
+        <div class="relative z-10 flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-start lg:items-center justify-between pt-24 sm:pt-28 md:pt-32 pb-24 sm:pb-32 w-full">
             <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-14 w-full">
                 
                 <!-- Left: Headline & Action Column -->
@@ -1520,25 +1520,36 @@
         // =========================================================================
         // 1. MOBILE MENU TOGGLE
         // =========================================================================
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const menuIcon = document.getElementById('menuIcon');
-
-        mobileMenuBtn.addEventListener('click', () => {
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            if (!mobileMenu) return;
             mobileMenu.classList.toggle('hidden');
-            if (mobileMenu.classList.contains('hidden')) {
-                menuIcon.classList.remove('fa-times');
-                menuIcon.classList.add('fa-bars');
-            } else {
-                menuIcon.classList.remove('fa-bars');
-                menuIcon.classList.add('fa-times');
+            if (menuIcon) {
+                if (mobileMenu.classList.contains('hidden')) {
+                    menuIcon.classList.remove('fa-times');
+                    menuIcon.classList.add('fa-bars');
+                } else {
+                    menuIcon.classList.remove('fa-bars');
+                    menuIcon.classList.add('fa-times');
+                }
             }
-        });
+        }
 
         function closeMobileMenu() {
-            mobileMenu.classList.add('hidden');
-            menuIcon.classList.remove('fa-times');
-            menuIcon.classList.add('fa-bars');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            if (mobileMenu) mobileMenu.classList.add('hidden');
+            if (menuIcon) {
+                menuIcon.classList.remove('fa-times');
+                menuIcon.classList.add('fa-bars');
+            }
+        }
+
+        // Add event listener as well for standard binding
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
         }
 
         // =========================================================================
@@ -1577,7 +1588,7 @@
             },
             {
                 tagline: "Aviation • Connectivity • Future",
-                heading: 'India's Gateway to the <span class="text-orange-500 italic text-glow">World</span>',
+                heading: 'India\'s Gateway to the <span class="text-orange-500 italic text-glow">World</span>',
                 description: "Pioneering the Noida International Airport to redefine global logistics and regional pride.",
                 primaryCTA: "Project Tracker",
                 primaryHref: "#impact-showcase",

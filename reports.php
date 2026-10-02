@@ -62,16 +62,16 @@
 <body class="min-h-full flex flex-col font-sans bg-slate-50 text-slate-900 selection:bg-orange-600 selection:text-white">
 
     <!-- HEADER / NAVIGATION -->
-    <header class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-12 transition-all duration-300 glass-nav">
-        <a class="flex items-center gap-3.5 group select-none outline-none" href="index.html">
-            <div class="relative flex h-11 w-11 items-center justify-center rounded-full bg-white overflow-hidden shadow-md border-2 border-orange-600 transition-transform duration-300 group-hover:scale-105">
-                <i class="fas fa-landmark text-orange-600 text-lg"></i>
+    <header class="fixed top-0 left-0 right-0 z-[1000] flex items-center justify-between px-4 py-2.5 sm:px-6 sm:py-3.5 md:px-12 md:py-4 transition-all duration-300 glass-nav">
+        <a class="flex items-center gap-2.5 sm:gap-3.5 group select-none outline-none" href="index.html">
+            <div class="relative flex h-9 w-9 sm:h-11 sm:w-11 items-center justify-center rounded-full bg-white overflow-hidden shadow-md border-2 border-orange-600 transition-transform duration-300 group-hover:scale-105">
+                <i class="fas fa-landmark text-orange-600 text-sm sm:text-lg"></i>
             </div>
             <div class="flex flex-col">
-                <span class="font-serif text-lg md:text-xl font-bold tracking-tight text-white group-hover:text-orange-400 transition-colors">
+                <span class="font-serif text-base sm:text-lg md:text-xl font-bold tracking-tight text-white group-hover:text-orange-400 transition-colors">
                     Subhakumar Singh
                 </span>
-                <span class="text-[10px] font-black tracking-[0.2em] uppercase text-orange-400">
+                <span class="text-[8px] sm:text-[10px] font-black tracking-[0.15em] sm:tracking-[0.2em] uppercase text-orange-400">
                     MLA • Jewar Constituency
                 </span>
             </div>
@@ -88,24 +88,24 @@
             <a href="connect.html" class="font-serif text-sm font-medium text-white/80 hover:text-orange-400 transition-colors">Secretariat</a>
         </nav>
 
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2.5 sm:gap-4">
             <a href="connect.html" class="hidden sm:inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full transition-all shadow-lg active:scale-95">
                 <i class="fas fa-paper-plane text-xs"></i>
                 <span>Public Cell</span>
             </a>
-                    <!-- Language Translator Toggle Button (English <-> Hindi) -->
-        <button id="langToggleBtn" onclick="toggleLanguage()" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 hover:bg-orange-600 border border-white/20 text-white text-xs font-bold transition-all shadow-md active:scale-95 group" title="Change Language / भाषा बदलें">
-            <i class="fas fa-language text-orange-400 group-hover:text-white text-base"></i>
-            <span id="currentLangLabel">हिंदी (Hindi)</span>
-        </button>
-        <button id="mobileMenuBtn" class="p-2 rounded-xl lg:hidden bg-white/10 text-white hover:bg-white/20 transition-colors" aria-label="Toggle Navigation">
-                <i class="fas fa-bars text-lg" id="menuIcon"></i>
+            <!-- Language Translator Toggle Button (English <-> Hindi) -->
+            <button id="langToggleBtn" onclick="toggleLanguage()" class="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/10 hover:bg-orange-600 border border-white/20 text-white text-[11px] sm:text-xs font-bold transition-all shadow-md active:scale-95 group" title="Change Language / भाषा बदलें">
+                <i class="fas fa-language text-orange-400 group-hover:text-white text-sm sm:text-base"></i>
+                <span id="currentLangLabel">हिंदी (Hindi)</span>
+            </button>
+            <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="p-1.5 sm:p-2 rounded-xl lg:hidden bg-white/10 text-white hover:bg-white/20 transition-colors cursor-pointer" aria-label="Toggle Navigation">
+                <i class="fas fa-bars text-base sm:text-lg" id="menuIcon"></i>
             </button>
         </div>
     </header>
 
     <!-- Mobile Drawer -->
-    <div id="mobileMenu" class="fixed inset-x-0 top-[72px] z-40 bg-[#0d1527] border-b border-slate-800 p-6 flex flex-col gap-4 text-white lg:hidden hidden shadow-2xl">
+    <div id="mobileMenu" class="fixed inset-x-0 top-[54px] sm:top-[66px] md:top-[74px] z-[999] bg-[#0d1527] border-b border-slate-800 p-6 flex flex-col gap-4 text-white lg:hidden hidden shadow-2xl transition-all">
         <!-- Language Switcher in Mobile Drawer -->
         <div class="py-2.5 px-2 border-b border-slate-800 flex items-center justify-between">
             <span class="text-xs text-slate-400 font-mono uppercase">Language / भाषा</span>
@@ -455,20 +455,36 @@
         // Initialize on page load
         renderVillages();
 
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const menuIcon = document.getElementById('menuIcon');
-
-        mobileMenuBtn.addEventListener('click', () => {
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            if (!mobileMenu) return;
             mobileMenu.classList.toggle('hidden');
-            if (mobileMenu.classList.contains('hidden')) {
+            if (menuIcon) {
+                if (mobileMenu.classList.contains('hidden')) {
+                    menuIcon.classList.remove('fa-times');
+                    menuIcon.classList.add('fa-bars');
+                } else {
+                    menuIcon.classList.remove('fa-bars');
+                    menuIcon.classList.add('fa-times');
+                }
+            }
+        }
+
+        function closeMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            if (mobileMenu) mobileMenu.classList.add('hidden');
+            if (menuIcon) {
                 menuIcon.classList.remove('fa-times');
                 menuIcon.classList.add('fa-bars');
-            } else {
-                menuIcon.classList.remove('fa-bars');
-                menuIcon.classList.add('fa-times');
             }
-        });
+        }
+
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+        }
     </script>
 
     <!-- Google Translate Element & Controller -->
