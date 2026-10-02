@@ -126,43 +126,43 @@
 
     <main class="flex-grow pt-24">
         <!-- Hero Section -->
-        <section class="relative bg-[#0d1527] text-white py-20 md:py-28 overflow-hidden">
+        <section class="relative bg-[#0d1527] text-white py-12 sm:py-20 md:py-28 overflow-hidden">
             <div class="absolute inset-0 z-0">
                 <img src="images/airport-infrastructure.jpg" class="w-full h-full object-cover scale-105 filter blur-[1px] opacity-35" alt="Noida International Airport Runway">
                 <div class="absolute inset-0 bg-gradient-to-r from-[#0d1527] via-[#0d1527]/90 to-[#0d1527]/60"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-[#0d1527] via-transparent to-[#0d1527]"></div>
             </div>
 
-            <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
-                <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 text-orange-400 text-xs font-black uppercase tracking-widest">
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="inline-flex items-center gap-2.5 px-3.5 sm:px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 text-orange-400 text-xs font-black uppercase tracking-widest">
                     <i class="fas fa-plane-departure text-xs"></i>
                     <span>IATA: DXN • Operational Readiness 2026</span>
                 </div>
                 
-                <div class="flex flex-col lg:flex-row gap-12 items-center justify-between mb-12">
-                    <div class="max-w-2xl">
-                        <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-6">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-between mb-8 sm:mb-12">
+                    <div class="max-w-2xl text-center lg:text-left">
+                        <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-4 sm:mb-6">
                             Noida Airport. <br>
                             <span class="italic text-orange-500 font-medium">The Jewar Model.</span>
                         </h1>
                         
-                        <p class="text-lg md:text-xl text-slate-300 font-light leading-relaxed mb-6">
+                        <p class="text-base sm:text-lg md:text-xl text-slate-300 font-light leading-relaxed mb-6">
                             A sustainable, multi-modal global gateway connecting Jewar to the world. A fusion of Swiss precision engineering, Indian hospitality, and 100% voluntary agrarian consensus.
                         </p>
-                        <div class="flex flex-wrap gap-3 items-center">
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/40 text-orange-400 text-xs font-mono font-semibold">
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-2.5 sm:gap-3 items-center">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/40 text-orange-400 text-xs font-mono font-semibold">
                                 <i class="fas fa-plane-departure"></i> IATA Code: DXN
                             </span>
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 text-xs font-mono font-semibold">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 text-xs font-mono font-semibold">
                                 <i class="fas fa-leaf"></i> Net-Zero Carbon Airport
                             </span>
                         </div>
                     </div>
 
                     <!-- Prominent Hero Image Card -->
-                    <div class="shrink-0 w-full lg:w-auto flex justify-center">
-                        <div class="relative w-80 sm:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
-                            <div class="h-64 sm:h-72 overflow-hidden">
+                    <div class="shrink-0 w-full lg:w-auto flex justify-center mt-4 lg:mt-0">
+                        <div class="relative w-72 sm:w-80 md:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
+                            <div class="h-56 sm:h-64 md:h-72 overflow-hidden">
                                 <img src="images/project-inspection.jpg" alt="Airport Runway Site Inspection by MLA" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                             </div>
                             <div class="p-4 bg-slate-900/95 border-t border-white/10 backdrop-blur-md">
@@ -179,22 +179,22 @@
                 </div>
 
                 <!-- 4 Performance Metric Chips -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl pt-6 border-t border-white/15">
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-3xl font-serif font-bold text-orange-400">12 Million</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Phase 1 Passengers / Year</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 max-w-5xl pt-6 border-t border-white/15">
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-orange-400">12 Million</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Phase 1 Passengers / Year</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-3xl font-serif font-bold text-white">3,900m</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Code-F Category Runway</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-white">3,900m</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Code-F Category Runway</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-3xl font-serif font-bold text-orange-400">2.5 Lakh</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Employment Potential</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-orange-400">2.5 Lakh</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Employment Potential</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-3xl font-serif font-bold text-white">₹30,000 Cr</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Total Project Ecosystem</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-white">₹30,000 Cr</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Total Project Ecosystem</p>
                     </div>
                 </div>
             </div>

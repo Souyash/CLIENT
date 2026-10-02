@@ -126,43 +126,43 @@
 
     <main class="flex-grow pt-24">
         <!-- Hero Section -->
-        <section class="relative bg-[#0d1527] text-white py-16 md:py-24 overflow-hidden">
+        <section class="relative bg-[#0d1527] text-white py-12 sm:py-16 md:py-24 overflow-hidden">
             <div class="absolute inset-0 z-0">
                 <img src="images/press-conference.jpg" class="w-full h-full object-cover scale-105 filter blur-[1px] opacity-30" alt="Press Conference Background">
                 <div class="absolute inset-0 bg-gradient-to-r from-[#0d1527] via-[#0d1527]/90 to-[#0d1527]/60"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-[#0d1527] via-transparent to-[#0d1527]"></div>
             </div>
 
-            <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
-                <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 text-orange-400 text-xs font-black uppercase tracking-widest">
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="inline-flex items-center gap-2.5 px-3.5 sm:px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 text-orange-400 text-xs font-black uppercase tracking-widest">
                     <i class="fas fa-bullhorn text-xs"></i>
                     <span>Official Media Command • Press Bureau</span>
                 </div>
                 
-                <div class="flex flex-col lg:flex-row gap-10 items-center justify-between mb-8">
-                    <div class="max-w-2xl">
-                        <h1 class="text-4xl sm:text-6xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-4">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center justify-between mb-8 sm:mb-10">
+                    <div class="max-w-2xl text-center lg:text-left">
+                        <h1 class="text-3xl sm:text-5xl md:text-6xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-4">
                             Media, Press &amp; <br>
                             <span class="italic text-orange-500 font-medium">Public Documentation.</span>
                         </h1>
                         
-                        <p class="text-base md:text-lg text-slate-300 font-light leading-relaxed mb-6">
+                        <p class="text-sm sm:text-base md:text-lg text-slate-300 font-light leading-relaxed mb-6">
                             Real-time updates, official legislative statements, and visual ground documentation of Jewar's transformative growth under Sh. Subhakumar Singh, MLA.
                         </p>
-                        <div class="flex flex-wrap gap-3 items-center">
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/30 text-orange-400 text-xs font-mono font-semibold">
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-2.5 sm:gap-3 items-center">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/30 text-orange-400 text-xs font-mono font-semibold">
                                 <i class="fas fa-broadcast-tower"></i> Live Media Desk
                             </span>
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-slate-300 text-xs font-mono font-semibold">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-slate-300 text-xs font-mono font-semibold">
                                 <i class="fas fa-camera"></i> High-Res Photo Desk
                             </span>
                         </div>
                     </div>
 
                     <!-- Prominent Press Hero Image Card -->
-                    <div class="shrink-0 w-full lg:w-auto flex justify-center">
-                        <div class="relative w-80 sm:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
-                            <div class="h-60 sm:h-64 overflow-hidden">
+                    <div class="shrink-0 w-full lg:w-auto flex justify-center mt-4 lg:mt-0">
+                        <div class="relative w-72 sm:w-80 md:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
+                            <div class="h-56 sm:h-60 md:h-64 overflow-hidden">
                                 <img src="images/press-conference.jpg" alt="Press Conference by Sh. Subhakumar Singh" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                             </div>
                             <div class="p-4 bg-slate-900/95 border-t border-white/10 backdrop-blur-md">
@@ -179,43 +179,43 @@
                 </div>
 
                 <!-- 4 Performance Metric Chips -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl pt-4 border-t border-white/15">
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-3xl font-serif font-bold text-orange-400">100+</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Official Press Releases</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 max-w-4xl pt-4 border-t border-white/15">
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-orange-400">100+</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Official Press Releases</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-3xl font-serif font-bold text-white">50+</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">High-Res Ground Photos</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-white">50+</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">High-Res Ground Photos</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-3xl font-serif font-bold text-orange-400">10+</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Video Reports &amp; Speeches</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-orange-400">10+</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Video Reports &amp; Speeches</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-3xl font-serif font-bold text-white">2.5k</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Citizen Interactions</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-white">2.5k</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Citizen Interactions</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Media Filter Tabs & Content -->
-        <section class="py-16 md:py-24 bg-white">
-            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <section class="py-12 sm:py-16 md:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 
                 <!-- Media Type Tabs -->
-                <div class="flex flex-wrap items-center justify-center gap-3 mb-12">
-                    <button onclick="setMediaTab('all')" id="tabAll" class="px-6 py-2.5 rounded-full text-xs font-bold transition-all bg-orange-600 text-white shadow-md">
+                <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-8 sm:mb-12">
+                    <button onclick="setMediaTab('all')" id="tabAll" class="px-4 sm:px-6 py-2 sm:py-2.5 rounded-full text-xs font-bold transition-all bg-orange-600 text-white shadow-md">
                         All Updates
                     </button>
-                    <button onclick="setMediaTab('press')" id="tabPress" class="px-6 py-2.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">
+                    <button onclick="setMediaTab('press')" id="tabPress" class="px-4 sm:px-6 py-2 sm:py-2.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">
                         Press Releases (100+)
                     </button>
-                    <button onclick="setMediaTab('photos')" id="tabPhotos" class="px-6 py-2.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">
+                    <button onclick="setMediaTab('photos')" id="tabPhotos" class="px-4 sm:px-6 py-2 sm:py-2.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">
                         Photo Gallery (50+)
                     </button>
-                    <button onclick="setMediaTab('videos')" id="tabVideos" class="px-6 py-2.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">
+                    <button onclick="setMediaTab('videos')" id="tabVideos" class="px-4 sm:px-6 py-2 sm:py-2.5 rounded-full text-xs font-bold transition-all bg-slate-100 text-slate-600 hover:bg-slate-200">
                         Video Archive (10+)
                     </button>
                 </div>

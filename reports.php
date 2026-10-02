@@ -126,35 +126,35 @@
 
     <main class="flex-grow pt-24">
         <!-- Hero Section -->
-        <section class="relative bg-[#0d1527] text-white py-16 md:py-24 overflow-hidden">
+        <section class="relative bg-[#0d1527] text-white py-12 sm:py-16 md:py-24 overflow-hidden">
             <div class="absolute inset-0 z-0">
                 <img src="images/jan-chaupal.jpg" class="w-full h-full object-cover scale-105 filter blur-[1px] opacity-30" alt="Village Jan Chaupal Background">
                 <div class="absolute inset-0 bg-gradient-to-r from-[#0d1527] via-[#0d1527]/90 to-[#0d1527]/60"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-[#0d1527] via-transparent to-[#0d1527]"></div>
             </div>
 
-            <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
-                <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 text-orange-400 text-xs font-black uppercase tracking-widest">
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="inline-flex items-center gap-2.5 px-3.5 sm:px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 text-orange-400 text-xs font-black uppercase tracking-widest">
                     <i class="fas fa-file-invoice-dollar text-xs"></i>
                     <span>Public Accountability &amp; Civic Audit</span>
                 </div>
                 
-                <div class="flex flex-col lg:flex-row gap-10 items-center justify-between mb-8">
-                    <div class="max-w-2xl">
-                        <h1 class="text-4xl sm:text-6xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-4">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center justify-between mb-8">
+                    <div class="max-w-2xl text-center lg:text-left">
+                        <h1 class="text-3xl sm:text-5xl md:text-6xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-4">
                             Village Development <br>
                             <span class="italic text-orange-500 font-medium">Dossiers &amp; Ledger.</span>
                         </h1>
                         
-                        <p class="text-base md:text-lg text-slate-300 font-light leading-relaxed mb-4">
+                        <p class="text-sm sm:text-base md:text-lg text-slate-300 font-light leading-relaxed mb-4">
                             An itemized, village-by-village accounting of infrastructure investments across Jewar and Dankaur blocks. Total Sanctioned Outlay: <strong class="text-white font-semibold">₹648.50 Crores</strong> across 192 units.
                         </p>
                     </div>
 
                     <!-- Hero Visual Card -->
-                    <div class="shrink-0 w-full lg:w-auto flex justify-center">
-                        <div class="relative w-80 rounded-2xl overflow-hidden border-2 border-orange-500/30 shadow-2xl bg-slate-900/90 backdrop-blur-md">
-                            <div class="h-44 overflow-hidden">
+                    <div class="shrink-0 w-full lg:w-auto flex justify-center mt-2 lg:mt-0">
+                        <div class="relative w-72 sm:w-80 rounded-2xl overflow-hidden border-2 border-orange-500/30 shadow-2xl bg-slate-900/90 backdrop-blur-md">
+                            <div class="h-40 sm:h-44 overflow-hidden">
                                 <img src="images/jan-chaupal.jpg" alt="Village Development Jan Chaupal" class="w-full h-full object-cover">
                             </div>
                             <div class="p-3.5 flex items-center justify-between">
@@ -169,14 +169,14 @@
                 </div>
 
                 <!-- Search & Filter Control Capsule -->
-                <div class="bg-white/10 backdrop-blur-xl border border-white/15 p-4 rounded-3xl max-w-5xl shadow-2xl space-y-4">
-                    <div class="flex flex-col md:flex-row gap-3">
+                <div class="bg-white/10 backdrop-blur-xl border border-white/15 p-4 sm:p-5 rounded-3xl max-w-5xl shadow-2xl space-y-4">
+                    <div class="flex flex-col sm:flex-row gap-3">
                         <div class="relative flex-grow">
                             <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
                             <input id="villageSearch" type="text" placeholder="Search village by name (e.g., Veerampur, Dankaur, Jewar, Mirjapur)..." class="w-full pl-11 pr-4 py-3 rounded-2xl bg-white/10 border border-white/10 text-white placeholder-slate-400 text-sm focus:outline-none focus:border-orange-500 transition-colors">
                         </div>
                         <div class="flex gap-2">
-                            <select id="sortSelect" class="bg-slate-900 border border-white/20 text-white text-xs font-mono px-4 py-3 rounded-2xl focus:outline-none">
+                            <select id="sortSelect" class="w-full sm:w-auto bg-slate-900 border border-white/20 text-white text-xs font-mono px-4 py-3 rounded-2xl focus:outline-none">
                                 <option value="budget-high">Budget: High to Low</option>
                                 <option value="budget-low">Budget: Low to High</option>
                                 <option value="alpha">Name: A to Z</option>
@@ -187,16 +187,16 @@
 
                     <!-- Filter Buttons -->
                     <div class="flex flex-wrap items-center gap-2 pt-2 border-t border-white/10">
-                        <button onclick="setBlockFilter('all')" id="btnFilterAll" class="px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-orange-600 text-white">
+                        <button onclick="setBlockFilter('all')" id="btnFilterAll" class="px-3.5 sm:px-4 py-2 rounded-full text-xs font-bold transition-all bg-orange-600 text-white">
                             All Villages (192)
                         </button>
-                        <button onclick="setBlockFilter('Jewar')" id="btnFilterJewar" class="px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-white/5 border border-white/10 text-slate-300 hover:bg-white/10">
+                        <button onclick="setBlockFilter('Jewar')" id="btnFilterJewar" class="px-3.5 sm:px-4 py-2 rounded-full text-xs font-bold transition-all bg-white/5 border border-white/10 text-slate-300 hover:bg-white/10">
                             Jewar Block (89)
                         </button>
-                        <button onclick="setBlockFilter('Dankaur')" id="btnFilterDankaur" class="px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-white/5 border border-white/10 text-slate-300 hover:bg-white/10">
+                        <button onclick="setBlockFilter('Dankaur')" id="btnFilterDankaur" class="px-3.5 sm:px-4 py-2 rounded-full text-xs font-bold transition-all bg-white/5 border border-white/10 text-slate-300 hover:bg-white/10">
                             Dankaur Block (103)
                         </button>
-                        <button onclick="setBlockFilter('smart')" id="btnFilterSmart" class="px-4 py-1.5 rounded-full text-xs font-bold transition-all bg-white/5 border border-white/10 text-slate-300 hover:bg-white/10">
+                        <button onclick="setBlockFilter('smart')" id="btnFilterSmart" class="px-3.5 sm:px-4 py-2 rounded-full text-xs font-bold transition-all bg-white/5 border border-white/10 text-slate-300 hover:bg-white/10">
                             ⭐ Flagship / Smart Villages
                         </button>
                     </div>
@@ -205,10 +205,10 @@
         </section>
 
         <!-- Dynamic Villages Grid Section -->
-        <section class="py-16 md:py-24 bg-slate-50">
-            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <section class="py-12 sm:py-16 md:py-24 bg-slate-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 
-                <div class="flex items-center justify-between mb-8">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-8">
                     <p id="resultsCount" class="text-xs font-mono text-slate-500 uppercase tracking-wider">
                         Showing 192 Village Dossiers
                     </p>
@@ -226,7 +226,7 @@
 
     <!-- Modal for Detailed Village Breakdown -->
     <div id="villageModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md hidden transition-opacity">
-        <div class="relative w-full max-w-2xl bg-white rounded-[2.5rem] p-8 md:p-10 shadow-2xl border border-slate-100 overflow-hidden">
+        <div class="relative w-full max-w-2xl bg-white rounded-3xl sm:rounded-[2.5rem] p-6 sm:p-8 md:p-10 shadow-2xl border border-slate-100 max-h-[90vh] overflow-y-auto">
             <button onclick="closeVillageModal()" class="absolute top-6 right-6 h-10 w-10 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-900 flex items-center justify-center transition-colors">
                 <i class="fas fa-times text-sm"></i>
             </button>

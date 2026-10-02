@@ -126,43 +126,43 @@
 
     <main class="flex-grow pt-24">
         <!-- Hero Section -->
-        <section class="relative bg-[#0d1527] text-white py-16 md:py-24 overflow-hidden">
+        <section class="relative bg-[#0d1527] text-white py-12 sm:py-16 md:py-24 overflow-hidden">
             <div class="absolute inset-0 z-0">
                 <img src="images/jan-chaupal.jpg" class="w-full h-full object-cover scale-105 filter blur-[1px] opacity-30" alt="Public Grievance Chaupal Background">
                 <div class="absolute inset-0 bg-gradient-to-r from-[#0d1527] via-[#0d1527]/90 to-[#0d1527]/60"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-[#0d1527] via-transparent to-[#0d1527]"></div>
             </div>
 
-            <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
-                <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 text-orange-400 text-xs font-black uppercase tracking-widest">
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="inline-flex items-center gap-2.5 px-3.5 sm:px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 text-orange-400 text-xs font-black uppercase tracking-widest">
                     <i class="fas fa-headset text-xs"></i>
                     <span>Public Secretariat • Jan Sunwai Cell</span>
                 </div>
                 
-                <div class="flex flex-col lg:flex-row gap-10 items-center justify-between mb-8">
-                    <div class="max-w-2xl">
-                        <h1 class="text-4xl sm:text-6xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-4">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center justify-between mb-8 sm:mb-10">
+                    <div class="max-w-2xl text-center lg:text-left">
+                        <h1 class="text-3xl sm:text-5xl md:text-6xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-4">
                             Public Secretariat. <br>
                             <span class="italic text-orange-500 font-medium">Always within Reach.</span>
                         </h1>
                         
-                        <p class="text-base md:text-lg text-slate-300 font-light leading-relaxed mb-6">
+                        <p class="text-sm sm:text-base md:text-lg text-slate-300 font-light leading-relaxed mb-6">
                             Transparent governance begins with direct accessibility. Submit your petitions, civic complaints, or development recommendations directly to the administrative cell.
                         </p>
-                        <div class="flex flex-wrap gap-3 items-center">
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/30 text-orange-400 text-xs font-mono font-semibold">
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-2.5 sm:gap-3 items-center">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/30 text-orange-400 text-xs font-mono font-semibold">
                                 <i class="fas fa-ticket-alt"></i> Auto Token Tracking
                             </span>
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-slate-300 text-xs font-mono font-semibold">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-slate-300 text-xs font-mono font-semibold">
                                 <i class="fab fa-whatsapp"></i> Direct WhatsApp Desk
                             </span>
                         </div>
                     </div>
 
                     <!-- Prominent Jan Sunwai Hero Image Card -->
-                    <div class="shrink-0 w-full lg:w-auto flex justify-center">
-                        <div class="relative w-80 sm:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
-                            <div class="h-60 sm:h-64 overflow-hidden">
+                    <div class="shrink-0 w-full lg:w-auto flex justify-center mt-4 lg:mt-0">
+                        <div class="relative w-72 sm:w-80 md:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
+                            <div class="h-56 sm:h-60 md:h-64 overflow-hidden">
                                 <img src="images/jan-chaupal.jpg" alt="Jan Sunwai Public Grievance Chaupal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                             </div>
                             <div class="p-4 bg-slate-900/95 border-t border-white/10 backdrop-blur-md">
@@ -179,35 +179,35 @@
                 </div>
 
                 <!-- Quick Reach Counters -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl pt-4 border-t border-white/15">
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-2xl font-serif font-bold text-orange-400">4 Hours</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Average First Response</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 max-w-4xl pt-4 border-t border-white/15">
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-orange-400">4 Hours</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Average First Response</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-2xl font-serif font-bold text-white">48 Hours</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Civic Redress Mandate</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-white">48 Hours</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Civic Redress Mandate</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-2xl font-serif font-bold text-orange-400">100%</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Encrypted Submissions</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-orange-400">100%</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Encrypted Submissions</p>
                     </div>
-                    <div class="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                        <p class="text-2xl font-serif font-bold text-white">Daily</p>
-                        <p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Open Jan Chaupal</p>
+                    <div class="p-3.5 sm:p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                        <p class="text-2xl sm:text-3xl font-serif font-bold text-white">Daily</p>
+                        <p class="text-[10px] sm:text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-1">Open Jan Chaupal</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Main Connect Grid: Form + Office Directory -->
-        <section id="grievance-form" class="py-16 md:py-24 bg-white">
-            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <section id="grievance-form" class="py-12 sm:py-16 md:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
                     
                     <!-- Left Column: Form -->
-                    <div class="lg:col-span-7 bg-slate-50 border border-slate-200/80 rounded-[2.5rem] p-8 md:p-12 shadow-sm">
+                    <div class="lg:col-span-7 bg-slate-50 border border-slate-200/80 rounded-3xl sm:rounded-[2.5rem] p-6 sm:p-8 md:p-12 shadow-sm">
                         
                         <div class="mb-8">
                             <span class="text-xs font-mono font-bold uppercase tracking-widest text-orange-600">Encrypted Administrative Link</span>
@@ -230,28 +230,28 @@
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div>
                                     <label class="block text-xs font-mono font-bold text-slate-700 uppercase mb-2">Full Name *</label>
-                                    <input type="text" id="citizenName" required placeholder="Sh. Rahul Sharma" class="w-full px-4 py-3 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
+                                    <input type="text" id="citizenName" required placeholder="Sh. Rahul Sharma" class="w-full px-4 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
                                 </div>
                                 <div>
                                     <label class="block text-xs font-mono font-bold text-slate-700 uppercase mb-2">Contact Number *</label>
-                                    <input type="tel" id="citizenPhone" required placeholder="+91 98765 43210" class="w-full px-4 py-3 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
+                                    <input type="tel" id="citizenPhone" required placeholder="+91 98765 43210" class="w-full px-4 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
                                 </div>
                             </div>
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div>
                                     <label class="block text-xs font-mono font-bold text-slate-700 uppercase mb-2">Email Address</label>
-                                    <input type="email" id="citizenEmail" placeholder="citizen@example.com" class="w-full px-4 py-3 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
+                                    <input type="email" id="citizenEmail" placeholder="citizen@example.com" class="w-full px-4 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
                                 </div>
                                 <div>
                                     <label class="block text-xs font-mono font-bold text-slate-700 uppercase mb-2">Block / Village *</label>
-                                    <input type="text" id="citizenVillage" required placeholder="Veerampur, Jewar Block" class="w-full px-4 py-3 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
+                                    <input type="text" id="citizenVillage" required placeholder="Veerampur, Jewar Block" class="w-full px-4 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
                                 </div>
                             </div>
 
                             <div>
                                 <label class="block text-xs font-mono font-bold text-slate-700 uppercase mb-2">Service Type *</label>
-                                <select id="citizenCategory" required class="w-full px-4 py-3 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
+                                <select id="citizenCategory" required class="w-full px-4 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500">
                                     <option value="Civic Grievance">Civic / Infrastructure Grievance (Roads, Water, Power)</option>
                                     <option value="General Query">General Administrative Query</option>
                                     <option value="Welfare Assistance">Citizen Social Welfare / Pension Support</option>
@@ -262,7 +262,7 @@
 
                             <div>
                                 <label class="block text-xs font-mono font-bold text-slate-700 uppercase mb-2">Detailed Message *</label>
-                                <textarea id="citizenMessage" rows="5" required placeholder="Please provide specific details of your grievance or suggestion..." class="w-full px-4 py-3 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500"></textarea>
+                                <textarea id="citizenMessage" rows="5" required placeholder="Please provide specific details of your grievance or suggestion..." class="w-full px-4 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-orange-500"></textarea>
                             </div>
 
                             <button type="submit" class="w-full py-4 bg-orange-600 hover:bg-orange-500 text-white rounded-2xl font-bold text-xs uppercase tracking-widest transition-all shadow-xl active:scale-95 flex items-center justify-center gap-2">
@@ -276,7 +276,7 @@
                     <!-- Right Column: Secretariat Directory -->
                     <div class="lg:col-span-5 space-y-6">
                         
-                        <div class="p-8 rounded-[2rem] bg-slate-900 text-white shadow-xl space-y-4">
+                        <div class="p-6 sm:p-8 rounded-3xl sm:rounded-[2rem] bg-slate-900 text-white shadow-xl space-y-4">
                             <span class="px-3 py-1 rounded-full bg-orange-500/20 text-orange-400 font-mono text-[10px] font-bold uppercase tracking-wider">
                                 Central Headquarters
                             </span>

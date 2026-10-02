@@ -139,30 +139,30 @@
                     <span>Visionary Infrastructure • Regional Transformation</span>
                 </div>
                 
-                <div class="flex flex-col lg:flex-row gap-12 items-center justify-between mb-12">
-                    <div class="max-w-2xl">
-                        <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-6">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-between mb-8 sm:mb-12">
+                    <div class="max-w-2xl text-center lg:text-left">
+                        <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-white leading-[1.15] mb-4 sm:mb-6">
                             Transforming Jewar <br>
                             <span class="italic text-orange-500 font-medium">Global Gateway.</span>
                         </h1>
                         
-                        <p class="text-lg md:text-xl text-slate-300 font-light leading-relaxed mb-6">
+                        <p class="text-base sm:text-lg md:text-xl text-slate-300 font-light leading-relaxed mb-6">
                             Asia's most significant aviation, manufacturing, and industrial ecosystem rising in Western Uttar Pradesh through transparent consensus and high-speed execution.
                         </p>
-                        <div class="flex flex-wrap gap-3 items-center">
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/40 text-orange-400 text-xs font-mono font-semibold">
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-2.5 sm:gap-3 items-center">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/40 text-orange-400 text-xs font-mono font-semibold">
                                 <i class="fas fa-industry"></i> YEIDA Corridor
                             </span>
-                            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-slate-200 text-xs font-mono font-semibold">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-slate-200 text-xs font-mono font-semibold">
                                 <i class="fas fa-road"></i> Yamuna Expressway Link
                             </span>
                         </div>
                     </div>
 
                     <!-- Prominent Hero Image Card -->
-                    <div class="shrink-0 w-full lg:w-auto flex justify-center">
-                        <div class="relative w-80 sm:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
-                            <div class="h-64 sm:h-72 overflow-hidden">
+                    <div class="shrink-0 w-full lg:w-auto flex justify-center mt-4 lg:mt-0">
+                        <div class="relative w-72 sm:w-80 md:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
+                            <div class="h-56 sm:h-64 md:h-72 overflow-hidden">
                                 <img src="images/project-inspection.jpg" alt="Ground Inspection by Sh. Subhakumar Singh, MLA" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                             </div>
                             <div class="p-4 bg-slate-900/95 border-t border-white/10 backdrop-blur-md">

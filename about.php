@@ -142,35 +142,35 @@
                     <span>Legislative Biography &amp; Public Mandate</span>
                 </div>
                 
-                <div class="flex flex-col lg:flex-row gap-12 items-center justify-between mb-12">
-                    <div class="max-w-2xl">
-                        <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-bold tracking-tight text-white leading-[1.12] mb-6">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-between mb-8 sm:mb-12">
+                    <div class="max-w-2xl text-center lg:text-left">
+                        <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-white leading-[1.15] sm:leading-[1.12] mb-4 sm:mb-6">
                             A leader rooted in <span class="italic text-orange-500 font-medium">service,</span><br>
                             defined by <span class="text-orange-500">delivery.</span>
                         </h1>
                         
-                        <p class="text-lg md:text-xl text-slate-300 font-light leading-relaxed mb-6">
+                        <p class="text-base sm:text-lg md:text-xl text-slate-300 font-light leading-relaxed mb-6">
                             Two-term Member of Legislative Assembly (MLA) from Jewar, championing world-class infrastructure, agricultural equity, and dignified governance for every citizen of Uttar Pradesh.
                         </p>
-                        <div class="flex flex-wrap gap-4 items-center">
-                            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-mono font-semibold">
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 items-center">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-mono font-semibold">
                                 <i class="fas fa-check-circle"></i> Jewar Constituency #63
                             </span>
-                            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 border border-white/20 text-slate-300 text-xs font-mono font-semibold">
+                            <span class="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl bg-white/10 border border-white/20 text-slate-300 text-xs font-mono font-semibold">
                                 <i class="fas fa-user-shield"></i> Grassroots Champion
                             </span>
                         </div>
                     </div>
                     
-                    <!-- Enlarged Hero Political Image -->
-                    <div class="shrink-0 w-full lg:w-auto flex justify-center">
-                        <div class="relative w-72 h-96 sm:w-80 sm:h-[420px] md:w-96 md:h-[480px] rounded-3xl overflow-hidden border-4 border-orange-500/40 shadow-2xl shadow-orange-950/50 group">
+                    <!-- Enlarged Hero Political Image (Responsive for Mobile) -->
+                    <div class="shrink-0 w-full lg:w-auto flex justify-center mt-4 lg:mt-0">
+                        <div class="relative w-64 h-80 sm:w-80 sm:h-[420px] md:w-96 md:h-[480px] rounded-3xl overflow-hidden border-4 border-orange-500/40 shadow-2xl shadow-orange-950/50 group">
                             <img src="images/mla-portrait.jpg" alt="Sh. Subhakumar Singh, MLA" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
-                            <div class="absolute bottom-0 inset-x-0 p-5 text-center">
-                                <p class="font-serif text-lg font-bold text-white tracking-wide">Sh. Subhakumar Singh</p>
+                            <div class="absolute bottom-0 inset-x-0 p-4 sm:p-5 text-center">
+                                <p class="font-serif text-base sm:text-lg font-bold text-white tracking-wide">Sh. Subhakumar Singh</p>
                                 <p class="text-xs font-mono text-orange-400 uppercase tracking-widest mt-1">Hon'ble MLA • Jewar</p>
-                                <p class="text-[11px] text-slate-300 font-light mt-1">Uttar Pradesh Legislative Assembly</p>
+                                <p class="text-[10px] sm:text-[11px] text-slate-300 font-light mt-1">Uttar Pradesh Legislative Assembly</p>
                             </div>
                         </div>
                     </div>

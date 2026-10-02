@@ -183,7 +183,7 @@
     <!-- SECTION 1: HERO SLIDESHOW & REAL-TIME PROGRESS CAPSULE                    -->
     <!-- (Exact structure from https://www.dhirendrasingh.in)                      -->
     <!-- ========================================================================= -->
-    <section id="home" class="relative w-full h-screen min-h-[680px] bg-slate-950 overflow-hidden select-none">
+    <section id="home" class="relative w-full min-h-screen lg:h-screen bg-slate-950 overflow-hidden select-none flex flex-col justify-between">
         
         <!-- Background Slider Images with Crossfade -->
         <div class="absolute inset-0 z-0">
@@ -197,51 +197,51 @@
             <div id="heroSlide3" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('images/project-inspection.jpg');"></div>
             
             <!-- Dark Gradient Vignette Overlay -->
-            <div class="absolute inset-0 bg-black/50"></div>
+            <div class="absolute inset-0 bg-black/60 sm:bg-black/50"></div>
             <div class="absolute inset-0 hero-gradient"></div>
         </div>
 
         <!-- Hero Content Foreground with Split Media & Editorial Layout -->
-        <div class="relative z-10 h-full max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between pt-16 pb-20">
-            <div class="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-14 w-full">
+        <div class="relative z-10 flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between pt-24 sm:pt-28 pb-28 sm:pb-32 w-full">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-14 w-full">
                 
                 <!-- Left: Headline & Action Column -->
-                <div class="max-w-3xl text-center lg:text-left flex flex-col items-center lg:items-start">
+                <div class="max-w-3xl text-center lg:text-left flex flex-col items-center lg:items-start w-full">
                     
                     <!-- Official MLA Badge with Character Portrait -->
-                    <div class="inline-flex items-center gap-3 px-3 py-1.5 pr-4 rounded-full bg-slate-900/80 backdrop-blur-xl border border-orange-500/40 mb-6 shadow-2xl">
-                        <img src="images/mla-portrait.jpg" alt="Sh. Subhakumar Singh, MLA" class="w-8 h-8 rounded-full object-cover border border-orange-400">
+                    <div class="inline-flex items-center gap-2.5 sm:gap-3 px-3 py-1.5 pr-4 rounded-full bg-slate-900/80 backdrop-blur-xl border border-orange-500/40 mb-4 sm:mb-6 shadow-2xl">
+                        <img src="images/mla-portrait.jpg" alt="Sh. Subhakumar Singh, MLA" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover border border-orange-400">
                         <div class="text-left">
-                            <span class="text-[11px] font-bold text-white block leading-tight">Sh. Subhakumar Singh</span>
-                            <span class="text-[9px] font-mono text-orange-400 block uppercase tracking-wider">Hon'ble MLA • Jewar</span>
+                            <span class="text-[10px] sm:text-[11px] font-bold text-white block leading-tight">Sh. Subhakumar Singh</span>
+                            <span class="text-[8px] sm:text-[9px] font-mono text-orange-400 block uppercase tracking-wider">Hon'ble MLA • Jewar</span>
                         </div>
                     </div>
 
                     <!-- Dynamic Tagline Pill -->
-                    <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 shadow-xl">
-                        <div class="h-2 w-2 rounded-full bg-orange-500 animate-pulse"></div>
-                        <span id="heroTagline" class="text-[11px] md:text-xs font-black tracking-[0.3em] text-white uppercase transition-all duration-500">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-4 sm:mb-6 shadow-xl">
+                        <div class="h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-orange-500 animate-pulse"></div>
+                        <span id="heroTagline" class="text-[9px] sm:text-xs font-black tracking-[0.25em] sm:tracking-[0.3em] text-white uppercase transition-all duration-500">
                             Vision • Leadership • Results
                         </span>
                     </div>
 
                     <!-- Main Display Heading (with dynamic highlight words) -->
-                    <h1 id="heroHeading" class="text-4xl sm:text-6xl md:text-7xl font-serif text-white leading-[1.1] tracking-tight mb-6 transition-all duration-500">
+                    <h1 id="heroHeading" class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-white leading-[1.15] sm:leading-[1.1] tracking-tight mb-4 sm:mb-6 transition-all duration-500">
                         Architect of a <span class="text-orange-500 italic text-glow">New Jewar</span>
                     </h1>
 
                     <!-- Subtitle -->
-                    <p id="heroDescription" class="max-w-2xl text-base md:text-xl text-slate-200 font-light leading-relaxed mb-8 transition-all duration-500">
+                    <p id="heroDescription" class="max-w-2xl text-sm sm:text-base md:text-lg text-slate-200 font-light leading-relaxed mb-6 sm:mb-8 transition-all duration-500 px-2 sm:px-0">
                         Transforming the regional landscape through world-class urban infrastructure, sustainable civic governance, and massive job creation.
                     </p>
 
                     <!-- Dual Action CTA Buttons -->
-                    <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto items-center justify-center lg:justify-start">
-                        <a id="heroPrimaryCTA" href="#spotlight" class="group flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-orange-600 px-8 py-4 md:py-4.5 text-sm font-bold text-white transition-all hover:bg-orange-500 hover:scale-105 active:scale-95 shadow-2xl shadow-orange-600/40">
+                    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto items-stretch sm:items-center justify-center lg:justify-start px-2 sm:px-0">
+                        <a id="heroPrimaryCTA" href="#spotlight" class="group flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-orange-600 px-6 sm:px-8 py-3.5 sm:py-4.5 text-xs sm:text-sm font-bold text-white transition-all hover:bg-orange-500 hover:scale-105 active:scale-95 shadow-2xl shadow-orange-600/40">
                             <span id="heroPrimaryText">View Projects</span>
                             <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
                         </a>
-                        <a id="heroSecondaryCTA" href="#connect" class="group flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-white/10 border border-white/20 backdrop-blur-xl px-8 py-4 md:py-4.5 text-sm font-bold text-white transition-all hover:bg-white hover:text-slate-950 active:scale-95">
+                        <a id="heroSecondaryCTA" href="#connect" class="group flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-white/10 border border-white/20 backdrop-blur-xl px-6 sm:px-8 py-3.5 sm:py-4.5 text-xs sm:text-sm font-bold text-white transition-all hover:bg-white hover:text-slate-950 active:scale-95">
                             <i class="fas fa-paper-plane text-orange-400 group-hover:text-slate-950"></i>
                             <span id="heroSecondaryText">Connect Directly</span>
                         </a>
@@ -249,23 +249,23 @@
                 </div>
 
                 <!-- Right: Prominent Character Showcase Hero Image Card -->
-                <div class="shrink-0 w-full lg:w-auto flex justify-center">
-                    <div class="relative w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[420px] rounded-[2.5rem] overflow-hidden border-4 border-orange-500/40 shadow-2xl shadow-orange-950/60 group">
+                <div class="shrink-0 w-full lg:w-auto flex justify-center mt-2 lg:mt-0">
+                    <div class="relative w-60 h-72 sm:w-72 sm:h-96 md:w-80 md:h-[400px] rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden border-4 border-orange-500/40 shadow-2xl shadow-orange-950/60 group">
                         <img id="heroShowcaseImg" src="images/mla-portrait.jpg" alt="Sh. Subhakumar Singh - MLA Jewar" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
                         
                         <!-- Floating Badge on Top -->
-                        <div class="absolute top-4 left-4">
-                            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-600/90 backdrop-blur-md text-white text-[10px] font-mono font-bold tracking-wider uppercase shadow-lg">
+                        <div class="absolute top-3.5 left-3.5 sm:top-4 sm:left-4">
+                            <span class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-full bg-orange-600/90 backdrop-blur-md text-white text-[9px] sm:text-[10px] font-mono font-bold tracking-wider uppercase shadow-lg">
                                 <i class="fas fa-landmark text-[9px]"></i> Primary Mandate
                             </span>
                         </div>
 
                         <!-- Bottom Card Bio -->
-                        <div class="absolute bottom-0 inset-x-0 p-5 text-center">
-                            <p class="font-serif text-lg font-bold text-white tracking-wide">Sh. Subhakumar Singh</p>
-                            <p class="text-xs font-mono text-orange-400 uppercase tracking-widest mt-0.5">MLA • Jewar (#63)</p>
-                            <p class="text-[11px] text-slate-300 font-light mt-1">Ground Zero Public Leadership</p>
+                        <div class="absolute bottom-0 inset-x-0 p-4 sm:p-5 text-center">
+                            <p class="font-serif text-base sm:text-lg font-bold text-white tracking-wide">Sh. Subhakumar Singh</p>
+                            <p class="text-[11px] sm:text-xs font-mono text-orange-400 uppercase tracking-widest mt-0.5">MLA • Jewar (#63)</p>
+                            <p class="text-[10px] sm:text-[11px] text-slate-300 font-light mt-1">Ground Zero Public Leadership</p>
                         </div>
                     </div>
                 </div>
@@ -274,15 +274,15 @@
         </div>
 
         <!-- Slider Navigation Capsule with Live Animated Timer & Play/Pause (Identical to dhirendrasingh.in) -->
-        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 w-auto max-w-sm px-4">
-            <div class="flex items-center gap-3 p-2 px-3 rounded-full bg-black/40 backdrop-blur-xl border border-white/15 shadow-2xl">
+        <div class="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 w-auto max-w-sm px-4">
+            <div class="flex items-center gap-2 sm:gap-3 p-1.5 sm:p-2 px-3 rounded-full bg-black/50 backdrop-blur-xl border border-white/15 shadow-2xl">
                 <!-- Prev Button -->
-                <button onclick="prevHeroSlide()" class="h-8 w-8 rounded-full flex items-center justify-center text-white/70 hover:text-white hover:bg-white/10 transition-colors" title="Previous Slide">
+                <button onclick="prevHeroSlide()" class="h-7 w-7 sm:h-8 sm:w-8 rounded-full flex items-center justify-center text-white/70 hover:text-white hover:bg-white/10 transition-colors" title="Previous Slide">
                     <i class="fas fa-chevron-left text-xs"></i>
                 </button>
 
                 <!-- Play / Pause Toggle -->
-                <button id="heroPlayBtn" onclick="toggleHeroPlay()" class="h-8 w-8 rounded-full flex items-center justify-center text-orange-400 hover:text-orange-300 hover:bg-white/10 transition-colors" title="Pause / Play Slideshow">
+                <button id="heroPlayBtn" onclick="toggleHeroPlay()" class="h-7 w-7 sm:h-8 sm:w-8 rounded-full flex items-center justify-center text-orange-400 hover:text-orange-300 hover:bg-white/10 transition-colors" title="Pause / Play Slideshow">
                     <i id="heroPlayIcon" class="fas fa-pause text-xs"></i>
                 </button>
 
