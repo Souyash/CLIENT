@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Public Secretariat & Jan Sunwai Cell | Sh. Subhakumar Singh • MLA</title>
-    <meta name="description" content="Connect directly with the office of Sh. Subhakumar Singh, MLA Jewar. Submit citizen grievances, book appointments, or reach field secretariats.">
-    <meta name="author" content="Office of MLA Subhakumar Singh">
+    <title>Public Secretariat & Jan Sunwai Cell | Sh. Subir Nag • MLA</title>
+    <meta name="description" content="Connect directly with the office of Sh. Subir Nag, MLA Jewar. Submit citizen grievances, book appointments, or reach field secretariats.">
+    <meta name="author" content="Office of MLA Subir Nag">
     <link rel="canonical" href="connect.html">
 
     <!-- Fonts & Icons -->
@@ -69,7 +69,7 @@
             </div>
             <div class="flex flex-col">
                 <span class="font-serif text-base sm:text-lg md:text-xl font-bold tracking-tight text-white group-hover:text-orange-400 transition-colors">
-                    Subhakumar Singh
+                    Subir Nag
                 </span>
                 <span class="text-[8px] sm:text-[10px] font-black tracking-[0.15em] sm:tracking-[0.2em] uppercase text-orange-400">
                     MLA • Jewar Constituency
@@ -245,7 +245,7 @@
                                 <div class="flex items-center justify-between">
                                     <div>
                                         <p class="font-serif text-sm font-bold text-white">Daily Jan Sunwai Open Desk</p>
-                                        <p class="text-[11px] font-mono text-orange-400 mt-0.5">Constituents with Sh. Subhakumar Singh</p>
+                                        <p class="text-[11px] font-mono text-orange-400 mt-0.5">Constituents with Sh. Subir Nag</p>
                                     </div>
                                     <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-mono font-bold uppercase">Active</span>
                                 </div>
@@ -356,7 +356,7 @@
                             <span class="px-3 py-1 rounded-full bg-orange-500/20 text-orange-400 font-mono text-[10px] font-bold uppercase tracking-wider">
                                 Central Headquarters
                             </span>
-                            <h4 class="text-2xl font-serif font-bold">Office of MLA Subhakumar Singh</h4>
+                            <h4 class="text-2xl font-serif font-bold">Office of MLA Subir Nag</h4>
                             <p class="text-xs text-slate-300 font-light leading-relaxed">
                                 Main GT Road, Jewar Central, Gautam Buddha Nagar, Uttar Pradesh — PIN 203135
                             </p>
@@ -407,7 +407,7 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
                 <div class="space-y-4">
-                    <h4 class="font-serif text-xl font-bold text-white">Subhakumar Singh</h4>
+                    <h4 class="font-serif text-xl font-bold text-white">Subir Nag</h4>
                     <p class="text-xs text-slate-400 font-light leading-relaxed">
                         Member of Legislative Assembly (MLA) • Jewar. Committed to fearless transparency, rapid infrastructure, and public dignity.
                     </p>
@@ -438,7 +438,7 @@
                 </div>
             </div>
             <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-light gap-4">
-                <p>&copy; 2026 Office of Sh. Subhakumar Singh, MLA. All rights reserved.</p>
+                <p>&copy; 2026 Office of Sh. Subir Nag, MLA. All rights reserved.</p>
                 <div class="flex gap-6">
                     <a href="privacy-policy.html" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
                     <a href="terms.html" class="hover:text-slate-300 transition-colors">Terms of Service</a>

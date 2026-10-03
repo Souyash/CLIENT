@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Sh. Subhakumar Singh | MLA • Official Profile & Legislative Journey</title>
-    <meta name="description" content="Biography, grassroots trajectory, and legislative philosophy of Shri Subhakumar Singh, Member of Legislative Assembly (MLA). Champion of the Direct-Dialogue framework.">
-    <meta name="author" content="Office of MLA Subhakumar Singh">
+    <title>About Sh. Subir Nag | MLA • Official Profile & Legislative Journey</title>
+    <meta name="description" content="Biography, grassroots trajectory, and legislative philosophy of Shri Subir Nag, Member of Legislative Assembly (MLA). Champion of the Direct-Dialogue framework.">
+    <meta name="author" content="Office of MLA Subir Nag">
     <link rel="canonical" href="about.html">
 
     <!-- Fonts & Icons -->
@@ -71,7 +71,7 @@
             </div>
             <div class="flex flex-col">
                 <span class="font-serif text-base sm:text-lg md:text-xl font-bold tracking-tight text-white group-hover:text-orange-400 transition-colors">
-                    Subhakumar Singh
+                    Subir Nag
                 </span>
                 <span class="text-[8px] sm:text-[10px] font-black tracking-[0.15em] sm:tracking-[0.2em] uppercase text-orange-400">
                     MLA • Jewar Constituency
@@ -207,7 +207,7 @@
         <!-- Hero Section -->
         <section class="relative bg-[#0d1527] text-white py-20 md:py-28 overflow-hidden">
             <div class="absolute inset-0 z-0">
-                <img src="images/mla-portrait.jpg" class="w-full h-full object-cover object-center scale-105 filter blur-[2px] opacity-35" alt="Legislative Background">
+                <img src="images/subir-nag-portrait.jpg" class="w-full h-full object-cover object-center scale-105 filter blur-[2px] opacity-35" alt="Legislative Background">
                 <div class="absolute inset-0 bg-gradient-to-r from-[#0d1527] via-[#0d1527]/90 to-[#0d1527]/60"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-[#0d1527] via-transparent to-[#0d1527]"></div>
             </div>
@@ -241,10 +241,10 @@
                     <!-- Enlarged Hero Political Image (Responsive for Mobile) -->
                     <div class="shrink-0 w-full lg:w-auto flex justify-center mt-4 lg:mt-0">
                         <div class="relative w-64 h-80 sm:w-80 sm:h-[420px] md:w-96 md:h-[480px] rounded-3xl overflow-hidden border-4 border-orange-500/40 shadow-2xl shadow-orange-950/50 group">
-                            <img src="images/mla-portrait.jpg" alt="Sh. Subhakumar Singh, MLA" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                            <img src="images/subir-nag-portrait.jpg" alt="Sh. Subir Nag, MLA" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
                             <div class="absolute bottom-0 inset-x-0 p-4 sm:p-5 text-center">
-                                <p class="font-serif text-base sm:text-lg font-bold text-white tracking-wide">Sh. Subhakumar Singh</p>
+                                <p class="font-serif text-base sm:text-lg font-bold text-white tracking-wide">Sh. Subir Nag</p>
                                 <p class="text-xs font-mono text-orange-400 uppercase tracking-widest mt-1">Hon'ble MLA • Jewar</p>
                                 <p class="text-[10px] sm:text-[11px] text-slate-300 font-light mt-1">Uttar Pradesh Legislative Assembly</p>
                             </div>
@@ -281,7 +281,7 @@
                 <div class="max-w-3xl mb-16">
                     <span class="text-xs font-black uppercase tracking-[0.3em] text-orange-600">Evolution &amp; Milestones</span>
                     <h2 class="text-3xl sm:text-5xl font-serif text-slate-900 mt-2 font-bold leading-tight">
-                        The Journey of Subhakumar Singh.
+                        The Journey of Subir Nag.
                     </h2>
                     <p class="text-slate-500 text-base md:text-lg font-light mt-4 leading-relaxed">
                         Tracing decades of grassroots transformation, farmer rights advocacy, and public policy breakthroughs across Western Uttar Pradesh.
@@ -466,7 +466,7 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
                 <div class="space-y-4">
-                    <h4 class="font-serif text-xl font-bold text-white">Subhakumar Singh</h4>
+                    <h4 class="font-serif text-xl font-bold text-white">Subir Nag</h4>
                     <p class="text-xs text-slate-400 font-light leading-relaxed">
                         Member of Legislative Assembly (MLA) • Jewar. Committed to fearless transparency, rapid infrastructure, and public dignity.
                     </p>
@@ -504,7 +504,7 @@
                 </div>
             </div>
             <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-light gap-4">
-                <p>&copy; 2026 Office of Sh. Subhakumar Singh, MLA. All rights reserved.</p>
+                <p>&copy; 2026 Office of Sh. Subir Nag, MLA. All rights reserved.</p>
                 <div class="flex gap-6">
                     <a href="privacy-policy.html" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
                     <a href="terms.html" class="hover:text-slate-300 transition-colors">Terms of Service</a>

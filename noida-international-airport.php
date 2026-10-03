@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noida International Airport (Jewar DXN) | Sh. Subhakumar Singh • MLA</title>
+    <title>Noida International Airport (Jewar DXN) | Sh. Subir Nag • MLA</title>
     <meta name="description" content="Official dossier on the Noida International Airport (Jewar DXN), the landmark direct-dialogue acquisition model, and multi-modal logistics hub.">
-    <meta name="author" content="Office of MLA Subhakumar Singh">
+    <meta name="author" content="Office of MLA Subir Nag">
     <link rel="canonical" href="noida-international-airport.html">
 
     <!-- Fonts & Icons -->
@@ -69,7 +69,7 @@
             </div>
             <div class="flex flex-col">
                 <span class="font-serif text-base sm:text-lg md:text-xl font-bold tracking-tight text-white group-hover:text-orange-400 transition-colors">
-                    Subhakumar Singh
+                    Subir Nag
                 </span>
                 <span class="text-[8px] sm:text-[10px] font-black tracking-[0.15em] sm:tracking-[0.2em] uppercase text-orange-400">
                     MLA • Jewar Constituency
@@ -245,7 +245,7 @@
                                 <div class="flex items-center justify-between">
                                     <div>
                                         <p class="font-serif text-sm font-bold text-white">DXN Construction Site Review</p>
-                                        <p class="text-[11px] font-mono text-orange-400 mt-0.5">Sh. Subhakumar Singh &amp; Civil Engineers</p>
+                                        <p class="text-[11px] font-mono text-orange-400 mt-0.5">Sh. Subir Nag &amp; Civil Engineers</p>
                                     </div>
                                     <span class="px-2.5 py-1 rounded-full bg-orange-500/20 text-orange-400 text-[10px] font-mono font-bold uppercase">Runway Inspection</span>
                                 </div>
@@ -287,7 +287,7 @@
                             The "Jewar Model" of Direct Farmer Dialogue.
                         </h2>
                         <p class="text-slate-600 text-base md:text-lg font-light leading-relaxed">
-                            Historically, mega-infrastructure in India had been marred by agrarian friction and prolonged court battles. Under the direct leadership of MLA Subhakumar Singh, the acquisition of 1,334 hectares for Phase 1 achieved an unprecedented 100% voluntary consent without a single protest or police intervention.
+                            Historically, mega-infrastructure in India had been marred by agrarian friction and prolonged court battles. Under the direct leadership of MLA Subir Nag, the acquisition of 1,334 hectares for Phase 1 achieved an unprecedented 100% voluntary consent without a single protest or police intervention.
                         </p>
                         
                         <div class="space-y-4 pt-2">
@@ -334,7 +334,7 @@
                                 </div>
                                 <h3 class="text-2xl font-serif font-bold text-white mb-2">Connecting India to Global Commerce</h3>
                                 <p class="text-xs text-slate-300 font-light leading-relaxed">
-                                    "When you respect the dignity of the farmer, progress happens at the speed of trust." — Sh. Subhakumar Singh
+                                    "When you respect the dignity of the farmer, progress happens at the speed of trust." — Sh. Subir Nag
                                 </p>
                             </div>
                         </div>
@@ -422,7 +422,7 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
                 <div class="space-y-4">
-                    <h4 class="font-serif text-xl font-bold text-white">Subhakumar Singh</h4>
+                    <h4 class="font-serif text-xl font-bold text-white">Subir Nag</h4>
                     <p class="text-xs text-slate-400 font-light leading-relaxed">
                         Member of Legislative Assembly (MLA) • Jewar. Committed to fearless transparency, rapid infrastructure, and public dignity.
                     </p>
@@ -453,7 +453,7 @@
                 </div>
             </div>
             <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-light gap-4">
-                <p>&copy; 2026 Office of Sh. Subhakumar Singh, MLA. All rights reserved.</p>
+                <p>&copy; 2026 Office of Sh. Subir Nag, MLA. All rights reserved.</p>
                 <div class="flex gap-6">
                     <a href="privacy-policy.html" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
                     <a href="terms.html" class="hover:text-slate-300 transition-colors">Terms of Service</a>

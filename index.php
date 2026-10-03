@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sh. Subhakumar Singh | MLA • Official Constituency Portal</title>
-    <meta name="description" content="Official digital portal of Shri Subhakumar Singh, MLA. Track infrastructure projects, development audits across 192 village units and urban wards, and public governance initiatives.">
-    <meta name="author" content="Office of MLA Subhakumar Singh">
-    <meta name="keywords" content="Subhakumar Singh, MLA, Legislative Assembly, Public Governance, Infrastructure Audits, Constituency Reports, MLA Office">
+    <title>Sh. Subir Nag | MLA • Official Constituency Portal</title>
+    <meta name="description" content="Official digital portal of Shri Subir Nag, MLA. Track infrastructure projects, development audits across 192 village units and urban wards, and public governance initiatives.">
+    <meta name="author" content="Office of MLA Subir Nag">
+    <meta name="keywords" content="Subir Nag, MLA, Legislative Assembly, Public Governance, Infrastructure Audits, Constituency Reports, MLA Office">
 
     <!-- Google Fonts: Playfair Display (Serif), Plus Jakarta Sans (Sans), JetBrains Mono (Mono) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,7 +91,7 @@
             </div>
             <div class="flex flex-col">
                 <span class="font-serif text-base sm:text-lg md:text-xl font-bold tracking-tight text-white transition-colors duration-300 group-hover:text-orange-400">
-                    Subhakumar Singh
+                    Subir Nag
                 </span>
                 <span class="text-[8px] sm:text-[10px] font-black tracking-[0.15em] sm:tracking-[0.2em] uppercase text-orange-400">
                     MLA • Central Constituency
@@ -263,14 +263,14 @@
         
         <!-- Background Slider Images with Crossfade -->
         <div class="absolute inset-0 z-0">
-            <!-- Slide 0 -->
-            <div id="heroSlide0" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-100" style="background-image: url('images/airport-infrastructure.jpg');"></div>
+            <!-- Slide 0: Subir Nag Banner -->
+            <div id="heroSlide0" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-100" style="background-image: url('images/subir-nag-banner.jpg');"></div>
             <!-- Slide 1 -->
-            <div id="heroSlide1" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('images/industrial-zone.jpg');"></div>
+            <div id="heroSlide1" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('images/airport-infrastructure.jpg');"></div>
             <!-- Slide 2 -->
-            <div id="heroSlide2" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('images/jan-chaupal.jpg');"></div>
+            <div id="heroSlide2" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('images/industrial-zone.jpg');"></div>
             <!-- Slide 3 -->
-            <div id="heroSlide3" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('images/project-inspection.jpg');"></div>
+            <div id="heroSlide3" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0" style="background-image: url('images/jan-chaupal.jpg');"></div>
             
             <!-- Dark Gradient Vignette Overlay -->
             <div class="absolute inset-0 bg-black/60 sm:bg-black/50"></div>
@@ -286,9 +286,9 @@
                     
                     <!-- Official MLA Badge with Character Portrait -->
                     <div class="inline-flex items-center gap-2.5 sm:gap-3 px-3 py-1.5 pr-4 rounded-full bg-slate-900/80 backdrop-blur-xl border border-orange-500/40 mb-4 sm:mb-6 shadow-2xl">
-                        <img src="images/mla-portrait.jpg" alt="Sh. Subhakumar Singh, MLA" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover border border-orange-400">
+                        <img src="images/subir-nag-portrait.jpg" alt="Sh. Subir Nag, MLA" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover border border-orange-400">
                         <div class="text-left">
-                            <span class="text-[10px] sm:text-[11px] font-bold text-white block leading-tight">Sh. Subhakumar Singh</span>
+                            <span class="text-[10px] sm:text-[11px] font-bold text-white block leading-tight">Sh. Subir Nag</span>
                             <span class="text-[8px] sm:text-[9px] font-mono text-orange-400 block uppercase tracking-wider">Hon'ble MLA • Jewar</span>
                         </div>
                     </div>
@@ -327,7 +327,7 @@
                 <!-- Right: Prominent Character Showcase Hero Image Card -->
                 <div class="shrink-0 w-full lg:w-auto flex justify-center mt-2 lg:mt-0">
                     <div class="relative w-60 h-72 sm:w-72 sm:h-96 md:w-80 md:h-[400px] rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden border-4 border-orange-500/40 shadow-2xl shadow-orange-950/60 group">
-                        <img id="heroShowcaseImg" src="images/mla-portrait.jpg" alt="Sh. Subhakumar Singh - MLA Jewar" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                        <img id="heroShowcaseImg" src="images/subir-nag-portrait.jpg" alt="Sh. Subir Nag - MLA Jewar" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
                         
                         <!-- Floating Badge on Top -->
@@ -339,7 +339,7 @@
 
                         <!-- Bottom Card Bio -->
                         <div class="absolute bottom-0 inset-x-0 p-4 sm:p-5 text-center">
-                            <p class="font-serif text-base sm:text-lg font-bold text-white tracking-wide">Sh. Subhakumar Singh</p>
+                            <p class="font-serif text-base sm:text-lg font-bold text-white tracking-wide">Sh. Subir Nag</p>
                             <p class="text-[11px] sm:text-xs font-mono text-orange-400 uppercase tracking-widest mt-0.5">MLA • Jewar (#63)</p>
                             <p class="text-[10px] sm:text-[11px] text-slate-300 font-light mt-1">Ground Zero Public Leadership</p>
                         </div>
@@ -989,7 +989,7 @@
                                 <span class="text-xs font-mono text-slate-400">28.128°N, 77.561°E</span>
                             </div>
                             <h4 class="text-base font-serif font-bold text-white group-hover:text-orange-400 transition-colors">
-                                Sh. Subhakumar Singh Legislative Secretariat
+                                Sh. Subir Nag Legislative Secretariat
                             </h4>
                             <p class="text-xs text-slate-400 mt-1">Main GT Road, Jewar Central, Gautam Buddha Nagar, UP 203135</p>
                             <div class="mt-3 flex items-center justify-between text-xs text-slate-300 pt-3 border-t border-white/10">
@@ -1192,12 +1192,12 @@
                 <!-- Left: Portrait / Image Presentation -->
                 <div class="lg:col-span-5 flex flex-col items-center">
                     <div class="relative w-full max-w-md rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white bg-white">
-                        <img src="images/mla-portrait.jpg" alt="Shri Subhakumar Singh, MLA" class="w-full h-[480px] object-cover object-top">
+                        <img src="images/subir-nag-portrait.jpg" alt="Shri Subir Nag, MLA" class="w-full h-[480px] object-cover object-top">
                         <div class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-slate-950/90 via-slate-950/60 to-transparent text-white">
                             <span class="badge bg-orange-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full mb-2 inline-block">
                                 Serving With Honor
                             </span>
-                            <h4 class="font-serif text-2xl font-bold">Sh. Subhakumar Singh</h4>
+                            <h4 class="font-serif text-2xl font-bold">Sh. Subir Nag</h4>
                             <p class="text-slate-300 text-xs font-light">Member of Legislative Assembly (MLA)</p>
                         </div>
                     </div>
@@ -1215,7 +1215,7 @@
                     </h2>
 
                     <p class="text-slate-700 text-base md:text-lg font-light leading-relaxed">
-                        Sh. Subhakumar Singh bridges grassroots responsiveness with institutional modernization. His legislative tenure has transformed the constituency into a premier hub of clean mobility, tech enterprises, and quality public amenities.
+                        Sh. Subir Nag bridges grassroots responsiveness with institutional modernization. His legislative tenure has transformed the constituency into a premier hub of clean mobility, tech enterprises, and quality public amenities.
                     </p>
 
                     <p class="text-slate-600 text-sm md:text-base font-light leading-relaxed">
@@ -1541,7 +1541,7 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
                 <div class="space-y-4">
-                    <h4 class="font-serif text-xl font-bold text-white">Subhakumar Singh</h4>
+                    <h4 class="font-serif text-xl font-bold text-white">Subir Nag</h4>
                     <p class="text-xs text-slate-400 font-light leading-relaxed">
                         Member of Legislative Assembly (MLA) • Jewar. Committed to fearless transparency, rapid infrastructure, and public dignity.
                     </p>
@@ -1580,7 +1580,7 @@
                 </div>
             </div>
             <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-light gap-4">
-                <p>&copy; 2026 Office of Sh. Subhakumar Singh, MLA. All rights reserved.</p>
+                <p>&copy; 2026 Office of Sh. Subir Nag, MLA. All rights reserved.</p>
                 <div class="flex gap-6">
                     <a href="privacy-policy.html" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
                     <a href="terms.html" class="hover:text-slate-300 transition-colors">Terms of Service</a>
@@ -1903,7 +1903,7 @@
             {
                 id: 0,
                 type: "Legislative",
-                title: "Sh. Subhakumar Singh Legislative Secretariat",
+                title: "Sh. Subir Nag Legislative Secretariat",
                 lat: 28.1278,
                 lng: 77.5611,
                 address: "Main GT Road, Jewar Central, Gautam Buddha Nagar, UP 203135",

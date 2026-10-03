@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media, Press & Visual Documentation | Sh. Subhakumar Singh • MLA</title>
-    <meta name="description" content="Official media center, press releases, video archives, and photo documentation of Sh. Subhakumar Singh, MLA Jewar.">
-    <meta name="author" content="Office of MLA Subhakumar Singh">
+    <title>Media, Press & Visual Documentation | Sh. Subir Nag • MLA</title>
+    <meta name="description" content="Official media center, press releases, video archives, and photo documentation of Sh. Subir Nag, MLA Jewar.">
+    <meta name="author" content="Office of MLA Subir Nag">
     <link rel="canonical" href="media.html">
 
     <!-- Fonts & Icons -->
@@ -69,7 +69,7 @@
             </div>
             <div class="flex flex-col">
                 <span class="font-serif text-base sm:text-lg md:text-xl font-bold tracking-tight text-white group-hover:text-orange-400 transition-colors">
-                    Subhakumar Singh
+                    Subir Nag
                 </span>
                 <span class="text-[8px] sm:text-[10px] font-black tracking-[0.15em] sm:tracking-[0.2em] uppercase text-orange-400">
                     MLA • Jewar Constituency
@@ -223,7 +223,7 @@
                         </h1>
                         
                         <p class="text-sm sm:text-base md:text-lg text-slate-300 font-light leading-relaxed mb-6">
-                            Real-time updates, official legislative statements, and visual ground documentation of Jewar's transformative growth under Sh. Subhakumar Singh, MLA.
+                            Real-time updates, official legislative statements, and visual ground documentation of Jewar's transformative growth under Sh. Subir Nag, MLA.
                         </p>
                         <div class="flex flex-wrap justify-center lg:justify-start gap-2.5 sm:gap-3 items-center">
                             <span class="inline-flex items-center gap-2 px-3 sm:px-3.5 py-1.5 rounded-full bg-orange-600/20 border border-orange-500/30 text-orange-400 text-xs font-mono font-semibold">
@@ -239,7 +239,7 @@
                     <div class="shrink-0 w-full lg:w-auto flex justify-center mt-4 lg:mt-0">
                         <div class="relative w-72 sm:w-80 md:w-96 rounded-3xl overflow-hidden border-4 border-orange-500/30 shadow-2xl shadow-black/80 group">
                             <div class="h-56 sm:h-60 md:h-64 overflow-hidden">
-                                <img src="images/press-conference.jpg" alt="Press Conference by Sh. Subhakumar Singh" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                                <img src="images/press-conference.jpg" alt="Press Conference by Sh. Subir Nag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                             </div>
                             <div class="p-4 bg-slate-900/95 border-t border-white/10 backdrop-blur-md">
                                 <div class="flex items-center justify-between">
@@ -313,7 +313,7 @@
                                 </div>
                                 <h4 class="text-xl font-serif font-bold text-slate-900 mb-2">Jewar Airport Terminal 1 Structural Inspection</h4>
                                 <p class="text-xs text-slate-500 font-light leading-relaxed mb-4">
-                                    Sh. Subhakumar Singh inspected the final roof truss assembly and baggage handling grid alongside aviation concessionaires.
+                                    Sh. Subir Nag inspected the final roof truss assembly and baggage handling grid alongside aviation concessionaires.
                                 </p>
                             </div>
                             <a href="#" class="text-xs font-bold uppercase text-orange-600 hover:text-orange-700">Read Statement &rarr;</a>
@@ -366,7 +366,7 @@
                             </div>
                         </div>
 
-                        <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer shadow" onclick="openLightbox('images/jan-chaupal.jpg', 'Jan Chaupal Direct Farmer Dialogue with Sh. Subhakumar Singh')">
+                        <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer shadow" onclick="openLightbox('images/jan-chaupal.jpg', 'Jan Chaupal Direct Farmer Dialogue with Sh. Subir Nag')">
                             <img src="images/jan-chaupal.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Jan Chaupal Dialogue">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-4 flex items-end">
                                 <p class="text-xs text-white font-medium">Jan Chaupal Farmer Dialogue</p>
@@ -380,8 +380,8 @@
                             </div>
                         </div>
 
-                        <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer shadow" onclick="openLightbox('images/mla-portrait.jpg', 'Official Portrait & Assembly Mandate of Sh. Subhakumar Singh')">
-                            <img src="images/mla-portrait.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Hospital Review">
+                        <div class="relative aspect-square rounded-2xl overflow-hidden group cursor-pointer shadow" onclick="openLightbox('images/subir-nag-portrait.jpg', 'Official Portrait & Assembly Mandate of Sh. Subir Nag')">
+                            <img src="images/subir-nag-portrait.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Hospital Review">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-4 flex items-end">
                                 <p class="text-xs text-white font-medium">Kasna Hospital Wing Review</p>
                             </div>
@@ -454,7 +454,7 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
                 <div class="space-y-4">
-                    <h4 class="font-serif text-xl font-bold text-white">Subhakumar Singh</h4>
+                    <h4 class="font-serif text-xl font-bold text-white">Subir Nag</h4>
                     <p class="text-xs text-slate-400 font-light leading-relaxed">
                         Member of Legislative Assembly (MLA) • Jewar. Committed to fearless transparency, rapid infrastructure, and public dignity.
                     </p>
@@ -485,7 +485,7 @@
                 </div>
             </div>
             <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-light gap-4">
-                <p>&copy; 2026 Office of Sh. Subhakumar Singh, MLA. All rights reserved.</p>
+                <p>&copy; 2026 Office of Sh. Subir Nag, MLA. All rights reserved.</p>
                 <div class="flex gap-6">
                     <a href="privacy-policy.html" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
                     <a href="terms.html" class="hover:text-slate-300 transition-colors">Terms of Service</a>
